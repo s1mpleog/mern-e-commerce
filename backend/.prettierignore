@@ -1,0 +1,19 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+*.env
+*env*
+# Ignore node_modules directory
+node_modules
+
+# Ignore built files or assets
+build/
+dist/
+*.min.js
+*.min.css
+
+# Ignore configuration files
+.eslintrc
+.prettierrc
+babel.config.js
