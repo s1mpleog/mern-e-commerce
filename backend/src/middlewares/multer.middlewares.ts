@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 
 const storage = multer.diskStorage({
     destination(req, res, callback) {
-        callback(null, "./public/temp");
+        callback(null, "uploads");
     },
 
     filename(req, file, callback) {
